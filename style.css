@@ -1,0 +1,113 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4b4b4b;
+    align-items: center;
+    justify-content: cetner;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    gap: 20px;
+    background: transparent;
+    border-radius: 3px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.relogio div {
+    height: 130px;
+    width: 100px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: rgba(5, 5, 5, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+
+}
+
+.relogio span.time {
+    font-size: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin-bottom: 10px;
+}
+
+.links a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #535353;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.links a:hover {
+    transition: 0.5s;
+    background-color: #202020;
+    border: 2px solid #757575;
+}
