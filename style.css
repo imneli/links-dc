@@ -12,6 +12,9 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-image: url(back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .relogio {
@@ -70,7 +73,8 @@ body {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 50%;
+    
 }
 
 .content {
@@ -99,15 +103,16 @@ p {
 .links a {
     display: block;
     padding: 10px 20px;
-    background-color: #535353;
+    background-color: #356CB1;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    border: 2px solid transparent;
 }
 
 .links a:hover {
     transition: 0.5s;
-    background-color: #202020;
-    border: 2px solid #757575;
+    background-color: #1E3266;
+    border: 2px solid #25467D;
 }
